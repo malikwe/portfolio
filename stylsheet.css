@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191919;
+}
+
+#samlet {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 30vw;
+}
+
+.column div {
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+.top {
+    align-items: flex-end;
+}
+
+.bot {
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.stilart {
+    background-image: url(01fotos/macbookmockup_fixed.png);
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.redesign {
+    background-image: url(03fotos/spidsroden/spidsrodenmockup.png);
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
+}
+
+.everyday {
+    background-image: url(03fotos/everydayproject/everydaycphdox.png);
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.anden {
+    background-image: url(02fotos/anden/andenmockup.png);
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.sexogsamfund {
+    background-image: url(02fotos/sexogsamfund/sexogsamfundmockup.png);
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.keaid {
+    background-image: url(04fotos/keaid/keaidmockup.png);
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.republikken {
+    background-image: url(04fotos/republikken/mockuprepublikken.png);
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.img_box {
+    position: absolute;
+    background-color: #191919;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.img_description {
+    font-size: 2em;
+    line-height: 25vw;
+    text-align: center;
+}
+
+.img_mini {
+    font-size: 1em;
+    text-align: center;
+}
+
+.stilart:hover .img_box {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.redesign:hover .img_box {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.everyday:hover .img_box {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.anden:hover .img_box {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.sexogsamfund:hover .img_box {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.keaid:hover .img_box {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.republikken:hover .img_box {
+    visibility: visible;
+    opacity: 0.8;
+}
