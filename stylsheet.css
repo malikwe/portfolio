@@ -11,7 +11,7 @@ li {
     margin-left: 50px;
     list-style: circle;
     line-height: 1.5;
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .topnav {
@@ -80,17 +80,54 @@ footer {
     border: 1px solid #F3F1F4;
 }
 
-.top {
-    align-items: flex-end;
+.stilart,
+.redesign,
+.everyday,
+.anden,
+.sexogsamfund,
+.keaid,
+.republikken {
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-grow: 1;
 }
 
-.bot {
-    align-items: flex-start;
+.stilart {
+    background-image: url(01fotos/macbookmockup_fixed.png);
+}
+
+.redesign {
+    background-image: url(03fotos/spidsroden/spidsrodenmockup.png);
+}
+
+.everyday {
+    background-image: url(03fotos/everydayproject/everydaycohdox.png);
+}
+
+.anden {
+    background-image: url(02fotos/anden/andenmockup.png);
+}
+
+.sexogsamfund {
+    background-image: url(02fotos/sexogsamfund/sexogsamfundmockup.png);
+}
+
+.keaid {
+    background-image: url(04fotos/keaid/keaidmockup.png);
+}
+
+.republikken {
+    background-image: url(04fotos/republikken/mockuprepublikken.png);
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: #DB4F04;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -117,7 +154,7 @@ h2 {
 }
 
 h3 {
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     color: rgb(195, 195, 195);
     text-align: center;
@@ -125,25 +162,16 @@ h3 {
 
 h4 {
     color: #DB4F04;
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-left: 20px;
 }
 
 p {
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.stilart {
-    background-image: url(01fotos/macbookmockup_fixed.png);
-    flex-basis: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-grow: 1;
 
-}
 
 .undertekst {
     font-size: 0.8em;
@@ -151,7 +179,7 @@ p {
     margin: 50px 0;
     margin-right: 20px;
     text-align: right;
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
     color: #DB4F04;
 }
 
@@ -219,16 +247,6 @@ p {
     padding: 20px;
 }
 
-.redesign {
-    background-image: url(03fotos/spidsroden/spidsrodenmockup.png);
-    flex-basis: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-grow: 1;
-}
-
 .bottomtekstredesign {
     margin-top: 50px;
     max-width: 800px;
@@ -259,58 +277,28 @@ video {
     font-size: 5em;
 }
 
+.redesign {
+    background-image: url(03fotos/spidsroden/spidsrodenmockup.png);
+}
+
 .everyday {
     background-image: url(03fotos/everydayproject/everydaycphdox.png);
-    flex-basis: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-grow: 1;
-
 }
 
 .anden {
     background-image: url(02fotos/anden/andenmockup.png);
-    flex-basis: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-grow: 1;
-
 }
 
 .sexogsamfund {
     background-image: url(02fotos/sexogsamfund/sexogsamfundmockup.png);
-    flex-basis: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-grow: 1;
-
 }
 
 .keaid {
     background-image: url(04fotos/keaid/keaidmockup.png);
-    flex-basis: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-grow: 1;
-
 }
 
 .republikken {
     background-image: url(04fotos/republikken/mockuprepublikken.png);
-    flex-basis: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-grow: 1;
     margin: 0;
 }
 
